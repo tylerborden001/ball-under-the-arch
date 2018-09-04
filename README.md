@@ -29,17 +29,20 @@ will come together for a chance at taking the Title home under the St. Louis Arc
 + Profile of Men's and Women's Teams TBA
 + Sign up now to recieve more information/register regsiter for the March 2019 event 
 
+##### 8/25/2018
++ Boilerplate samples, Setting up CLoud9 coding space
 ##### 8/27/2018
-+ Boilerplate samples, first Commit
-##### DATE
-+ Landing page responsiveness, added NavBar and empty links
-##### DATE
-+ Sized responsive images for column boxes (returning to CSS grids for further improvements)
-##### DATE
-+ Design changes to NavBar layout, modifications to color scheme of empty links
-##### DATE
-+ Background slideshow in place will be updated with fade animation (jQuery).
-+ Documentation changes
++ Design Samples and Research to coordinate routes
+##### 8/29/2018
++ Landing Page Skeleton, Developing Links for States 
+##### 8/31/2018
++ Initialized First Routes for States, used first as sample data
+
+
+##### Initial Navigation (Dated 9/3/2018)
++ https://ball-under-the-arch-sbuckner.c9users.io/ - to see landing page in live preview
++ https://ball-under-the-arch-sbuckner.c9users.io/states - to see live preview list of states from sample data
+
 
 
 
