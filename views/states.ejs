@@ -1,0 +1,15 @@
+<h1> BALL UNDER THE ARCH </h1>
+
+<ul>
+    <li><a href= '#'>Login</a></li>
+    <!--<li>Sign Up</li>-->
+    
+</ul>
+
+<h2>Choose Your State:</h2>
+
+<% states.forEach(function(state){ %>
+    <li>
+        <a href="#"><%= state.name %></a>
+    </li>
+<% }); %>

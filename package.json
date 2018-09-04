@@ -1,0 +1,15 @@
+{
+  "name": "buta",
+  "version": "1.0.0",
+  "description": "Welcome to Ball Under The Arch. The next greastest St. Louis competition.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sidney Buckner",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}
