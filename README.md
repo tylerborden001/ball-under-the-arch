@@ -38,8 +38,12 @@ will come together for a chance at taking the Title home under the St. Louis Arc
 ##### 8/31/2018
 + Initialized First Routes for States, used first as sample data
 
+#### Packade Requirements 
++ "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
 
-##### Initial Navigation (Dated 9/3/2018)
+##### Initial Navigation - Dated 9/3/2018 Live preview available exclusivley on cloud9
 + https://ball-under-the-arch-sbuckner.c9users.io/ - to see landing page in live preview
 + https://ball-under-the-arch-sbuckner.c9users.io/states - to see live preview list of states from sample data
 
