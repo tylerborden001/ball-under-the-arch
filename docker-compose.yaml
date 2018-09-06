@@ -14,7 +14,7 @@ services:
 
   api:
     image: node
-    command: /bin/bash -c "npm install && npx knex migrate:latest && npm start"
+    command: /bin/bash -c "npm install && npx knex migrate:latest && node ./src/api/app.js"
     working_dir: /api
     ports:
       - "3000:3000"
