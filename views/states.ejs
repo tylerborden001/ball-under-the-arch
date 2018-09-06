@@ -1,4 +1,4 @@
-<h1> BALL UNDER THE ARCH </h1>
+<% include partials/header %>
 
 <ul>
     <li><a href= '#'>Login</a></li>
@@ -9,7 +9,11 @@
 <h2>Choose Your State:</h2>
 
 <% states.forEach(function(state){ %>
-    <li>
-        <a href="#"><%= state.name %></a>
-    </li>
+    <div>
+        <!--<h4><a href="#"><%= state.name %></a>-->
+        <a href="#"><img src="<%= state.image %>"></a>
+        
+    </div>
 <% }); %>
+
+<% include partials/footer %>
