@@ -9,7 +9,16 @@
   "author": "Sidney Buckner",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.4",
     "ejs": "^2.6.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "express-promise-router": "^3.0.3",
+    "knex": "^0.15.2",
+    "lodash": "^4.17.10",
+    "objection": "^1.2.6",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0"
   }
 }

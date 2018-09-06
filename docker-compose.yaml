@@ -1,0 +1,38 @@
+version: '3.3'
+
+services:
+  db:
+    image: postgres:alpine
+    expose:
+      - "5432"
+    environment:
+      POSTGRES_DB: ball_under_arch_db
+      POSTGRES_USER: bua_user
+      POSTGRES_PASSWORD: mysecretpassword
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+  api:
+    image: node
+    command: /bin/bash -c "npm install && npx knex migrate:latest && node ./src/api/app.js"
+    working_dir: /api
+    ports:
+      - "3000:3000"
+    links:
+      - db
+    volumes:
+      - .:/api:delegated
+
+  web:
+    image: node
+    command: node ./src/web/app.js
+    working_dir: /web
+    ports:
+      - "8080:8080"
+    links:
+      - db
+    volumes:
+      - .:/web:delegated
+
+volumes:
+  db-data:
