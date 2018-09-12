@@ -1,19 +1,11 @@
 <!-- <% include partials/header %> -->
-
-<ul>
-    <li><a href= '#'>Login</a></li>
-    <!--<li>Sign Up</li>-->
-
-</ul>
-
-<h2>Choose Your State:</h2>
-
+<div class="container">
+  <p>Choose your State:</p>
 <% states.forEach(function(state){ %>
-    <div>
-        <!--<h4><a href="#"><%= state.name %></a>-->
-        <a href="#"><img src="<%= state.image %>"></a>
-
-    </div>
+  <div>
+    <h4><a href="#"> <%= state.name %> </a>
+    <!-- <a href="#"><img src="<%= state.image %>"></a> -->
+  </div>
 <% }); %>
 
 <!-- <% include partials/footer %> -->

@@ -21,7 +21,7 @@ will come together for a chance at taking the Title home under the St. Louis Arc
 
 + Simple and clean design, at peak responsiveness in between mobile, laptop, and desktop devices
 + Sign Up by State
-+ Answer the following questions. All questions must be answered correctly to register
++ All questions must be answered correctly to register
 
 ---
 
@@ -30,13 +30,17 @@ will come together for a chance at taking the Title home under the St. Louis Arc
 + Sign up now to receive more information/register register for the March 2019 event
 
 ##### 8/25/2018
-+ Boilerplate samples, Setting up Cloud9 coding space
++ Boilerplate samples
++ Setting up Cloud9 coding space
 ##### 8/27/2018
-+ Design Samples and Research to coordinate routes
++ Design Samples
++ Research to coordinate routes
 ##### 8/29/2018
-+ Landing Page Skeleton, Developing Links for States
++ Landing Page Skeleton
++ Developing Links for States
 ##### 8/31/2018
-+ Initialized First Routes for States, used first as sample data
++ Initialized First Routes for States
++ Used first as sample data
 ##### 9/6/2018
 + Set final version of architecture
 + First commit remote to GitHub
@@ -57,7 +61,7 @@ will come together for a chance at taking the Title home under the St. Louis Arc
   "lodash": "^4.17.10",
   "objection": "^1.2.6",
   "pg": "^7.4.3"
-
+}
 
 <!-- ##### Initial Navigation - Dated 9/3/2018 Live preview available exclusively on cloud9
 + https://ball-under-the-arch-sbuckner.c9users.io/ - to see landing page in live preview

@@ -7,7 +7,7 @@ services:
       - "5432"
     environment:
       POSTGRES_DB: ball_under_arch_db
-      POSTGRES_USER: bua_user
+      POSTGRES_USER: sidneybuckner
       POSTGRES_PASSWORD: mysecretpassword
     volumes:
       - db-data:/var/lib/postgresql/data

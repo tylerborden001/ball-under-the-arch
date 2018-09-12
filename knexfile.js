@@ -6,12 +6,12 @@ module.exports = {
         'database': 'ball_under_arch_db',
         'host': 'db',
         'password': 'mysecretpassword',
-        'user': 'bua_user'
+        'user': 'sidneybuckner'
     },
     'migrations': {
         'directory': path.resolve('./src/api/db/migrations')
     },
-    // 'seeds': {
-    //     'directory': path.resolve('./src/api/db/seeds')
-    // }
+    'seeds': {
+        'directory': path.resolve('./src/api/db/seeds')
+    }
 };
