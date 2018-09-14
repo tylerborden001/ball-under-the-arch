@@ -8,10 +8,25 @@ exports.up = async function migrateUp( knex ){
                 table.string( "name" );
             }
         );
+        .schema
+        .createTableIfNotExists(
+            "user",
+            ( table ) => {
+                table.increments( "id" ).primary();
+                table.string( "name" );
+                table.string("email");
+                table.string("password");
+            }
+        );
 };
 
 exports.down = function migrateDown( knex ){
     return knex
         .schema
         .dropTableIfExists( "state" );
+};
+exports.down = function migrateDown( knex ){
+    return knex
+        .schema
+        .dropTableIfExists( "user" );
 };
