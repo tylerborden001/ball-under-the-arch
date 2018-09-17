@@ -49,7 +49,10 @@ will come together for a chance at taking the Title home under the St. Louis Arc
 + Set up Docker services to start all servers at once
 + API Directory: migrations and its Schema
 + Views/Partials: Header and footer ejs imports to each page
-+ Adding Bootstrap 4.1.1 Designs
+##### 9/17/2018
++ Set initial Boostrap 4.1.1 designs on Landing page, more to come
++ Adding Background image to all page renderings
++ Added Layering over background image, color #333333
 
 #### Package Requirements
 + "dependencies": {
