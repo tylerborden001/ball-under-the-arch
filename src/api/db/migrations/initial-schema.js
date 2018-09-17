@@ -25,8 +25,3 @@ exports.down = function migrateDown( knex ){
         .schema
         .dropTableIfExists( "state" );
 };
-exports.down = function migrateDown( knex ){
-    return knex
-        .schema
-        .dropTableIfExists( "user" );
-};

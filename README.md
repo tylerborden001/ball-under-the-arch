@@ -63,6 +63,12 @@ will come together for a chance at taking the Title home under the St. Louis Arc
   "pg": "^7.4.3"
 }
 
+### Environment Setup
+1. Setup Local space
+2. From the terminal run: docker-compose up
+3. Set open browser to listen on Localhost:8080
+7. The app should now be up and running
+
 <!-- ##### Initial Navigation - Dated 9/3/2018 Live preview available exclusively on cloud9
 + https://ball-under-the-arch-sbuckner.c9users.io/ - to see landing page in live preview
 + https://ball-under-the-arch-sbuckner.c9users.io/states - to see live preview list of states from sample data -->
