@@ -82,4 +82,4 @@ will come together for a chance at taking the Title home under the St. Louis Arc
 
 
 ---
-###### Circa Sidney Buckner. August 2018.
+###### August 2018. Staff: Alex Borden, Sidney Buckner, Allan Caprola, Alex Pearson
