@@ -15,10 +15,10 @@ module.exports = class State extends Model{
                 'name': {
                     'type': 'string'
                 },
-                'questionId': {
-                    'type': 'array'
-                }
-            },
+            //     'questionId': {
+            //         'type': 'array'
+            //     }
+            // },
 
             'required': [
                 'name'
