@@ -46,13 +46,25 @@ will come together for a chance at taking the Title home under the St. Louis Arc
 + First commit remote to GitHub
 + Organized code into three main phases/sections: Front-End, API, DataBase
 + Commenced in reorganizing code to correct directories
+##### 9/10/2018
 + Set up Docker services to start all servers at once
 + API Directory: migrations and its Schema
-+ Views/Partials: Header and footer ejs imports to each page
++ Views/Partials: Header and Footer ejs imports to each page
+##### 9/12/2018
++ Backtracking progress on route for 'States' due to rendering errors
++ Finalized one single design that will render on every page with Header and Footer ejs files
+##### 9/14/2018
++ Inserting first set of questions and answers that will render from database
 ##### 9/17/2018
-+ Set initial Boostrap 4.1.1 designs on Landing page, more to come
++ Set initial Bootstrap 4.1.1 designs on Landing page, more to come
 + Adding Background image to all page renderings
 + Added Layering over background image, color #333333
++ Backtracking databases questions due to error on the server
+##### 9/19/2018
++ Setting up next route to render for 'States'
++ Seeding first question and answer set into DataBase for smooth and functional migration
+
+
 
 #### Package Requirements
 + "dependencies": {
