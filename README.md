@@ -64,7 +64,8 @@ will come together for a chance at taking the Title home under the St. Louis Arc
 + Backtracking progress on route for 'States' due to rendering errors
 + Setting up next route to render for 'States'
 + Seeding first question and answer set into DataBase for smooth and functional migration
-
+##### 9/21/2018
++ 
 
 
 #### Package Requirements
@@ -82,7 +83,7 @@ will come together for a chance at taking the Title home under the St. Louis Arc
 ### Environment Setup
 1. Setup Local space
 2. From the terminal run: docker-compose up
-3. Set open browser to listen on Localhost:8080
+3. Set open browser to listen on Localhost:8080/
 7. The app should now be up and running
 
 <!-- ##### Initial Navigation - Dated 9/3/2018 Live preview available exclusively on cloud9
