@@ -17,7 +17,10 @@ module.exports = class State extends Model{
                 },
                 'questionId': {
                     'type': 'array'
-                }
+                },
+                'question': {
+                    'type': 'array'
+                },
             },
 
             'required': [

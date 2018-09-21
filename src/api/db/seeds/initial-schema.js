@@ -3,7 +3,6 @@ exports.seed = async function(knex) {
   // await knex('questions').del()
   // await knex('user').del()
   // repeat for all of your tables
-
   await knex('state').insert({ name: 'arkansas', questionID: 1 })
   await knex('state').insert({ name: 'illinois', questionID: 2 })
   await knex('state').insert({ name: 'iowa', questionID: 3 })

@@ -1,11 +1,30 @@
-<!-- <% include partials/header %> -->
-<div class="container">
-  <p>Choose your State:</p>
-<% states.forEach(function(state){ %>
+<% include partials/header %>
+<html>
+
+<head>
+  <link rel="stylesheet" href='/partials/bg.css' />
+  <style>
+    h1 {text-align: center;}
+     div {background-color: rgba(0, 0, 0, .20);}
+     .btn {min-width: 250px; min-height: 200px; justify-content: space-around;}
+  </style>
+
+</head>
+
+<body>
   <div>
-    <h4><a href="#"> <%= state.name %> </a>
-    <!-- <a href="#"><img src="<%= state.image %>"></a> -->
-  </div>
-<% }); %>
-<!--
-<% include partials/footer %> -->
+    <h1>Please Choose Your State:</h1>
+    <button type="button" class="btn btn-large">AR</button>
+    <button type="button" class="btn btn-large">IL</button>
+    <button type="button" class="btn btn-large">IA</button>
+    <button type="button" class="btn btn-large">KS</button>
+    <button type="button" class="btn btn-large">KY</button>
+    <button type="button" class="btn btn-large">MO</button>
+    <button type="button" class="btn btn-large">NE</button>
+    <button type="button" class="btn btn-large">OK</button>
+    <button type="button" class="btn btn-large">TN</button>
+    <div>
+</body>
+
+</html>
+<% include partials/footer %>
