@@ -61,6 +61,7 @@ will come together for a chance at taking the Title home under the St. Louis Arc
 + Added Layering over background image, color #333333
 + Backtracking databases questions due to error on the server
 ##### 9/19/2018
++ Backtracking progress on route for 'States' due to rendering errors
 + Setting up next route to render for 'States'
 + Seeding first question and answer set into DataBase for smooth and functional migration
 
